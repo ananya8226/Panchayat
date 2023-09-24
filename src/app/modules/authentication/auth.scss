@@ -1,0 +1,67 @@
+.main-body-forgetpass {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding-top: 5rem;
+
+    .signin-heading {
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    .form-container {
+        display: flex;
+        align-self: center;
+        width: 50%;
+
+        form {
+            width: 100%;
+            margin-bottom: 4rem;
+
+            .form-container{
+
+                .modal-btn{
+                    li{
+                        text-decoration: none;
+                        color: #fff  !important;
+                    }
+    
+                    a{
+                        text-decoration: none;
+                        color: #fff  !important;
+                    }
+
+                    .modal-link{
+
+                        li{
+                            text-decoration: none;
+                            color: #fff  !important;
+                        }
+        
+                        a{
+                            text-decoration: none;
+                            color: #fff  !important;
+                        }
+                    } 
+                }
+            }
+
+            label {
+                font-size: 17px;
+                font-weight: 500;
+            }
+
+            .signin-btn-div {
+                display: flex;
+                margin-top: 2rem;
+                justify-content: center;
+            }
+
+           
+        }
+
+
+    }
+
+}
