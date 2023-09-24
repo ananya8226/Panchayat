@@ -1,0 +1,181 @@
+.main-dashboard-container {
+    display: flex;
+    flex-direction: row;
+    height: 70rem;
+
+    .filter-div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 94%;
+        padding-right: 4rem;
+        padding-left: 2rem;
+        margin-top: 5rem;
+        // margin-bottom: 3rem;
+
+    }
+
+    .dashboard-container {
+        display: flex;
+        height: 27rem;
+        width: 96%;
+        margin-top: 3rem;
+        padding-left: 1rem;
+        // background-color: aliceblue;
+
+        .div1 {
+            width: 32%;
+            background-color: rgba(122, 52, 143, 0.767);
+            margin: 1rem;
+            border-radius: 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .icon-div {
+
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                background-color: #fff;
+                display: flex;
+                justify-content: center;
+                // align-content: center;
+                align-items: center;
+            }
+
+            p {
+                text-align: center;
+                font-size: 18px;
+                font-weight: 500;
+                font-family: "Poppins";
+                color: #fff;
+                padding: 0;
+                margin: 0;
+            }
+
+            h2 {
+                font-weight: 700;
+                color: #fff;
+                text-align: center;
+                font-family: "Poppins";
+                margin-bottom: 0;
+                margin-top: 2rem;
+            }
+        }
+
+        .div2 {
+            display: flex;
+            flex-direction: column;
+            width: 32%;
+
+            .child-div1 {
+
+                height: 13rem;
+                margin: 1rem 1rem 3rem 1rem;
+                border-radius: 1rem;
+                display: flex;
+                justify-content: center;
+                position: relative;
+                background-color: rgb(156, 52, 3);  
+
+                .circle {
+                    border-radius: 50%;
+                    border: 1px solid rgb(156, 52, 3);
+                    background-color: #fff;
+                    height: 6rem;
+                    width: 6rem;
+                    position: absolute;
+                    top: -3rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                .hidden-div {
+                    height: 8rem;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: flex-end;
+
+                    p {
+                        text-align: center;
+                        font-size: 15px;
+                        font-weight: 400;
+                        font-family: "Poppins";
+                        color: #fff;
+                        padding: 0;
+                        margin: 0;
+                    }
+        
+                    h2 {
+                        font-weight: 700;
+                        color: #fff;
+                        text-align: center;
+                        font-family: "Poppins";
+                        margin-bottom: 0;
+                        margin-top: 2rem;
+                    }
+
+                }
+            }
+
+            .child-div2 {
+                background-color: rgb(53, 99, 1);
+                height: 50%;
+                margin: 1rem;
+                border-radius: 1rem;
+                display: flex;
+                justify-content: center;
+                position: relative;
+
+                .circle {
+                    border-radius: 50%;
+                    border: 1px solid rgb(53, 99, 1);
+                    background-color: #fff;
+                    height: 6rem;
+                    width: 6rem;
+                    position: absolute;
+                    top: -3rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    
+                }
+
+                .hidden-div {
+                    height: 8rem;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: flex-end;
+
+                    p {
+                        text-align: center;
+                        font-size: 15px;
+                        font-weight: 400;
+                        font-family: "Poppins";
+                        color: #fff;
+                        padding: 0;
+                        margin: 0;
+                    }
+        
+                    h2 {
+                        font-weight: 700;
+                        color: #fff;
+                        text-align: center;
+                        font-family: "Poppins";
+                        margin-bottom: 0;
+                        margin-top: 2rem;
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+}

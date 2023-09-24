@@ -1,0 +1,70 @@
+.myform {
+    margin: 2rem 4rem;
+    width: 90%;
+
+    h2 {
+        text-align: center;
+        margin-bottom: 3rem;
+        font-family: 'Poppins';
+    }
+
+    .form-body {
+
+        .btn {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+            .cancel-btn {
+                margin-right: 2.5rem;
+            }
+
+            .save-btn {
+                margin-left: 2.5rem;
+            }
+        }
+
+        .sector-form {
+            margin-bottom: 2rem;
+
+            p {
+                font-size: 18px;
+                font-weight: 600;
+            }
+
+            .form-container {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 100%;
+
+                .form-colm {
+
+                    width: 45%;
+
+                    label {
+
+                        font-size: 15px;
+                        font-weight: 500;
+                    }
+
+                    .text-field {
+                        margin-bottom: 1.5rem;
+                    }
+
+                    .error {
+                        margin: 0;
+                        padding: 0;
+                        color: red;
+                        font-size: 10px;
+                        font-weight: 400;
+                    }
+
+                   
+                }
+            }
+        }
+    }
+
+
+}
